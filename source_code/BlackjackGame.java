@@ -118,3 +118,10 @@ class BlackjackGame {
         playerBalances[0] -= newBet;
     }
 }
+
+    public void displayRemainingBalance() {
+        System.out.println("--------------------------------------------------------------------------------------------------------------------");
+        System.out.println("   Remaining balance: " + playerBalances[0]);
+    }
+}
+
